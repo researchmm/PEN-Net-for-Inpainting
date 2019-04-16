@@ -7,7 +7,7 @@ Learning Pyramid-Context Encoder Network for High-Quality Image Inpainting.<br>
 In CVPR 2019 (Poster).
 
 ## Code
-Code will be released within 1-2 months. 
+Code will be released within 2-3 months. 
 
 
 ### Citation
