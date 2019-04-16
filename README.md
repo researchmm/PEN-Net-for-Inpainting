@@ -1,5 +1,5 @@
 # PEN-Net for Image Inpainting
-![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/docs/PEN-Net.gif)
+![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)
 
 ### [Arsiv]() | 
 Learning Pyramid-Context Encoder Network for High-Quality Image Inpainting.<br>
