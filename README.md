@@ -5,7 +5,7 @@
 
 Learning Pyramid-Context Encoder Network for High-Quality Image Inpainting<br>
 [Yanhong Zeng](https://sites.google.com/view/1900zyh),  [Jianlong Fu](https://jianlong-fu.github.io/), [Hongyang Chao](https://scholar.google.com/citations?user=qnbpG6gAAAAJ&hl),  and [Baining Guo](https://www.microsoft.com/en-us/research/people/bainguo/).<br>
-In CVPR 2019 (Poster).
+In CVPR 2019.
 
 <!-- ------------------------------------------------------------------------------ -->
 ## Introduction 
