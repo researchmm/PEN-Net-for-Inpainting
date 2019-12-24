@@ -19,10 +19,10 @@ Our proposals combine these two mechanisms by,
 ## Example Results 
 We re-implement PEN-Net in Pytorch for faster speed, which is slightly different from the original Tensorflow version used in our paper. Each triad shows original image, masked input and our result.
 
-![celebahq](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/celebahq.PNG?raw=true)
-![dtd](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/dtd.PNG?raw=true)
-![facade](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/facade.PNG?raw=true)
-![places2](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/places2.PNG?raw=true)
+![celebahq](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/pytorch/docs/celebahq.PNG?raw=true)
+![dtd](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/pytorch/docs/dtd.PNG?raw=true)
+![facade](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/pytorch/docs/facade.PNG?raw=true)
+![places2](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/pytorch/docs/places2.PNG?raw=true)
 
 <!-- -------------------------------------------------------- -->
 ## Run 
@@ -34,11 +34,13 @@ We re-implement PEN-Net in Pytorch for faster speed, which is slightly different
     * Prepare training images filelist [[our split]](https://drive.google.com/open?id=1_j51UEiZluWz07qTGtJ7Pbfeyp1-aZBg)
     * Modify [celebahq.json](configs/celebahq.json) to set path to data, iterations, and other parameters.
     * Our codes are built upon distributed training with Pytorch.  
-    * Run `python train.py -c [config_file] -n [model_name] -m [mask_type] -s [image_size] `. For example, `python train.py -c configs/celebahq.json -n pennet -m square -s 256 `
+    * Run `python train.py -c [config_file] -n [model_name] -m [mask_type] -s [image_size] `. 
+    * For example, `python train.py -c configs/celebahq.json -n pennet -m square -s 256 `
 2. Resume training:
     * Run `python train.py -n pennet -m square -s 256 `.
 3. Testing:
-    * Run `python test.py -c [config_file] -n [model_name] -m [mask_type] -s [image_size] `. For example, `python test.py -c configs/celebahq.json -n pennet -m square -s 256 `
+    * Run `python test.py -c [config_file] -n [model_name] -m [mask_type] -s [image_size] `. 
+    * For example, `python test.py -c configs/celebahq.json -n pennet -m square -s 256 `
 4. Evaluating:
     * Run `python eval.py -r [result_path]`
 
