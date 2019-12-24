@@ -1,15 +1,15 @@
 # PEN-Net for Image Inpainting
 ![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)
 
-### [Arxiv Paper](https://arxiv.org/abs/1904.07475) | [CVPR Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/) | [Poster](https://drive.google.com/open?id=1Zyfmqa6zUS4fd7aBg577WTPzJj0QyZM9) | [BibTex](https://github.com/researchmm/PEN-Net-for-Inpainting#citation)
+### [Arxiv Paper](https://arxiv.org/abs/1904.07475) | [CVPR Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zeng_Learning_Pyramid-Context_Encoder_Network_for_High-Quality_Image_Inpainting_CVPR_2019_paper.pdf) | [Poster](https://drive.google.com/open?id=1Zyfmqa6zUS4fd7aBg577WTPzJj0QyZM9) | [BibTex](https://github.com/researchmm/PEN-Net-for-Inpainting#citation)
 
 Learning Pyramid-Context Encoder Network for High-Quality Image Inpainting<br>
-[Yanhong Zeng](),  [Jianlong Fu](https://jianlong-fu.github.io/), [Hongyang Chao](),  and [Baining Guo]().<br>
+[Yanhong Zeng](https://sites.google.com/view/1900zyh),  [Jianlong Fu](https://jianlong-fu.github.io/), [Hongyang Chao](https://scholar.google.com/citations?user=qnbpG6gAAAAJ&hl),  and [Baining Guo](https://www.microsoft.com/en-us/research/people/bainguo/).<br>
 In CVPR 2019 (Poster).
 
 <!-- ------------------------------------------------------------------------------ -->
 ## Introduction 
-Existing image inpainting works either fill missing regions by copying fine-grained image patches or generating semantically reasonable patches (by CNN) from region context, while neglect the fact that both visual and semantic plausibility are highly-demanded. 
+Existing inpainting works either fill missing regions by copying fine-grained image patches or generating semantically reasonable patches (by CNN) from region context, while neglect the fact that both visual and semantic plausibility are highly-demanded. 
 
 Our proposals combine these two mechanisms by,
 1) **Cross-Layer Attention Transfer (ATN).** We use the learned region affinity from high-lelvel feature maps to guide feature transfer in adjacent low-level layers in an encoder. 
