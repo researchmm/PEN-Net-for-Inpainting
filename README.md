@@ -46,13 +46,19 @@ We re-implement PEN-Net in Pytorch for faster speed, which is slightly different
 
 <!-- ------------------------------------------------------------------- -->
 ## Pretrained models
+Download the models below and put it under `release_model/`
+
 [CELEBA-HQ](https://drive.google.com/open?id=1Xf_LwP38PLL78817nXfpsHsLuCNWoPX9) | 
 [DTD](https://drive.google.com/open?id=1OCrML2j6apv44-TxJvpOLOzavJmxZtJr) |
 [Facade](https://drive.google.com/open?id=1cTcEMIuii3jJfc5sstXxMQNyTVcV3I8K) |
 [Places2](https://drive.google.com/open?id=1Hd8DUCJMGnCZz53_19zV4_p06YJ0UDt2) 
 
-Download the model dirs and put it under `release_model/`
 
+We also provide more results of central square below for your comparisons 
+
+[CELEBA-HQ](https://drive.google.com/open?id=13xa9Gf4q_tu7B3Wr97udBoTXWrMNkrtl) |
+[DTD](https://drive.google.com/open?id=1GYsdh-0vZ-DS4MTR3nBfeAJjsqHS_qau) |
+[Facade](https://drive.google.com/open?id=1g_2Wy2K4wpVaU1Sd3-XS9-jsmQgqJx5V) 
 
 <!-- ------------------------------------------------------------------- -->
 ## TensorBoard
