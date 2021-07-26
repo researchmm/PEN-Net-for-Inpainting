@@ -1,7 +1,7 @@
 # PEN-Net for Image Inpainting
 ![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)
 
-### [Arxiv Paper](https://arxiv.org/abs/1904.07475) | [CVPR Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zeng_Learning_Pyramid-Context_Encoder_Network_for_High-Quality_Image_Inpainting_CVPR_2019_paper.pdf) | [Poster](https://drive.google.com/open?id=1Zyfmqa6zUS4fd7aBg577WTPzJj0QyZM9) | [BibTex](https://github.com/researchmm/PEN-Net-for-Inpainting#citation)
+### [Arxiv Paper](https://arxiv.org/abs/1904.07475) | [Project](https://sites.google.com/view/1900zyh/pen-net) | [Poster](https://drive.google.com/open?id=1Zyfmqa6zUS4fd7aBg577WTPzJj0QyZM9) | [BibTex](https://github.com/researchmm/PEN-Net-for-Inpainting#citation)
 
 Learning Pyramid-Context Encoder Network for High-Quality Image Inpainting<br>
 [Yanhong Zeng](https://sites.google.com/view/1900zyh),  [Jianlong Fu](https://jianlong-fu.github.io/), [Hongyang Chao](https://scholar.google.com/citations?user=qnbpG6gAAAAJ&hl),  and [Baining Guo](https://www.microsoft.com/en-us/research/people/bainguo/).<br>
