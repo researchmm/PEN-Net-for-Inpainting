@@ -36,6 +36,7 @@ We re-implement PEN-Net in Pytorch for faster speed, which is slightly different
     * Our codes are built upon distributed training with Pytorch.  
     * Run `python train.py -c [config_file] -n [model_name] -m [mask_type] -s [image_size] `. 
     * For example, `python train.py -c configs/celebahq.json -n pennet -m square -s 256 `
+    * If you have any trouble with the configuration, please refer to configuration section.
 2. Resume training:
     * Run `python train.py -n pennet -m square -s 256 `.
 3. Testing:
@@ -45,6 +46,37 @@ We re-implement PEN-Net in Pytorch for faster speed, which is slightly different
     * Run `python eval.py -r [result_path]`
 
 <!-- ------------------------------------------------------------------- -->
+
+## Configuration
+
+### Training
+
+Inside `configs/celebahq.json` or other custom JSON files,
+
+- In `data_loader`
+  - `name`: name of images.
+  - `zip_root`: Root directory containing the zip folder with `name`
+  - `flist_root`: Root directory containing several sub-directories with `name` whcih contain the corresponding `train.flist`, ... etc
+
+For example, if we have
+
+```
+"data_loader": {
+	"name": "celebahq",
+	"zip_root": "datazip"
+	"flist_root": "flist",
+	...
+}
+```
+
+Then we must have:
+
+- `cd PEN-Net-for-Inpainting`
+- `datazip/celebahq/celebahq.zip` where `celebahq.zip` is a zip folder containing input images.
+- `flist/celebahq/train.flist` or other flist files which contain paths to images relative to the zip folder. In this case, e.g. `celebahq/celebahq1.png`
+
+<!-- ------------------------------------------------------------------- -->
+
 ## Pretrained models
 Download the models below and put it under `release_model/`
 
